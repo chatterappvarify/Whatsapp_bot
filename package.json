@@ -1,0 +1,16 @@
+{
+  "name": "chatterapp-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp OTP bot for ChatterApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
